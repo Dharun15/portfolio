@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harshavardhan S - CSE Student Portfolio">
+    <meta name="keywords" content="Harshavardhan S, Computer Science, Portfolio">
+    <meta name="author" content="Harshavardhan S">
+    <title>Dharun Muthaiah Nataraj</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h2><a href="#" style="text-decoration: none; color: inherit;">Dharun Muthaiah <span class="highlight">N</span></a></h2>
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                <!----    <li><a href="#certifications">Certifications</a></li> --->
+                    <li class="cta-button"><a href="#contact">Get in Touch</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="intro">
+            <p>ECE Student</p>
+            <h1>Hello! I'm Dharun Muthaiah N</h1>
+            <h1>ACQUIRING EXPERTISE IN <span id="domain-text"></span></h1>            
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <br>
+                    <br>
+                    <img src="support\temp1.png" alt="Harshavardhan S">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate and motivated final year Electrical and Communication Engineering student from VIT Chennai with a strong focus on Artificial Intelligence, Machine Learning and Signal Processing. With hands-on experience in deep learning-based projects, including ASD detection using fMRI, retinal image segmentation and smart waste segregation systems, I aim to utilize cutting-edge technologies to drive innovation. Having a solid foundation in AI, I am committed to solving real-world challenges through advanced computational techniques.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" data-tab="skills" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" data-tab="education" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" data-tab="extra" onclick="opentab('extra')">Languages</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <div class="skills-container"></div>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - PRESENT</span><br>B.Tech Electronics and Communication Engineering at <a href="https://vit.ac.in/" style="text-decoration: none; color: inherit;" target="_blank">Vellore Institute of Technology</a><br>CGPA : <span>9.11</span></li>
+                            <li><span>2019 - 2021</span><br>Senior Secondary Education at <a href="https://velammalnexus.com/melayanambakkam-cbse-home/" style="text-decoration: none; color: inherit;" target="_blank">Pupil Saveetha Eco School (CBSE)</a><br>PERCENTAGE : <span>95.4%</span></li>
+                        </ul>                               
+                    </div>
+                    <div class="tab-contents" id="extra">
+                        <ul>
+                            <li><span>ENGLISH</span> : IELTS - 7.5</li>
+                            <li><span>TAMIL</span></li>
+                            <li><span>HINDI</span></li>
+                            <li><span>MALAYALAM</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Experience -->
+
+<section id="experience">
+    <h1>Experience</h1>
+    <div class="services-list">
+        <div class="service">
+            <h2><a href="https://www.qneuro.com/" style="text-decoration: none; font-size: inherit; color: #fff;">qneuro</a></h2>
+            <p>
+                <ul>
+                    <li>Conducted research on a skin conductance-based emotion recognition system using Galvanic Skin Resistance sensor (GSR).</li>
+                    <li>Worked on creating custom Data Acquisition Protocols to categorize signals into stress-inducing, amusing, and normal.</li>
+                    <li>Utilized Preprocessing steps like Moving average and Min-Max Normalization for normalizing signals.</li>
+                    <li>Applied Feature Extraction algorithms like cvxEDA to segregate normalized EDA signals into phasic and tonic components.</li>
+                    <li>Leveraged Machine Learning Algorithms like SVM and Random Forest for classification.</li>
+                    <li>This role sharpened my ability to manage and work in complex projects and collaborate with cross-functional teams.</li>
+                </ul>
+            </p>
+        </div>
+        <div class="service">
+            <h2><a href="https://dotworld.in/about" style="text-decoration: none; font-size: inherit; color: #fff;">dotworld</a></h2>
+            <p>
+                <ul>
+                    <li>Implemented and optimized AI models for voice cloning, ensuring model deployment and improving system efficiency.</li>
+                    <li>Created custom audio dataset and pre-processed it to reduce noise for wake word detection system.</li>
+                    <li>Extracted spectral features from audio signals using Mel-frequency cepstral coefficients (MFCC) and utilized a custom CNN-based deep learning model for detecting wake word.</li>
+                    <li>Contributed to projects involving 3D Gaussian Splatting in data acquisition.</li>
+                    <li>Gained experience with Secure Shell (SSH) and Linux OS during projects.</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <h1 class="sub-title">RESEARCH & Projects</h1>
+    <div id="project-container" class="project-list">
+        <div class="project">
+            <div class="project-info">
+                <img src="projects\asd.jpg" alt="ASD Detection using fMRI">
+                <h2>ASD Detection using fMRI</h2>
+                <div class="overlay-text">Presented at<br><a href="https://www.icmlde.org/" target="_blank"><u>ICMLDE 2024</u></a></div>
+                <ul>
+                    <li>Applied machine learning techniques to classify autism spectrum disorder based on fMRI data from the ABIDE dataset.</li>
+                    <li>Preprocessed data by transforming fMRI from 4D format to 2D using libraries such as Nilearn and Nibabel.</li>
+                    <li>Built a deep learning network utilizing Multihead Attention Network and Squeeze & Excitation layers for feature extraction.</li>
+                    <li>Leveraged machine learning models such as SVM and random forest to detect ASD from extracted features.</li>
+                    <li>Achieved an overall classification accuracy of 98.59%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-info">
+                <img src="projects\NIR.png" alt="NIR-based Non-Invasive Blood Glucose Detection">
+                <h2>NIR-based Non-Invasive Blood Glucose Detection</h2>
+                <div class="overlay-text">Submitted to<br><a href="https://adsoc5.in/" target="_blank"><u>IEEE-AdSoc-5.0</u></a></div>
+                <ul>
+                    <li>Developed a working prototype to non-invasively detect and monitor blood glucose levels.</li>
+                    <li>Deployed a customized NIR sensor module to predict glucose levels through the amount of light penetrating the skin.</li>
+                    <li>Created a custom dataset of reference glucose levels with estimated sensor values for 4 sessions before and after eating.</li>
+                    <li>Utilized statistical models like random forest, polynomial regression, support vector regression, and logistic regression for prediction based on obtained data.</li>
+                    <li>Integrated an LCD display and buzzer with Arduino Uno to display predicted glucose values and alert when high blood glucose levels were detected.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-info">
+                <img src="projects\design.jpg" alt="Smart Waste Segregation System">
+                <h2>Smart Waste Segregation System</h2>
+                <div class="overlay-text">Accepted by<br><a href="https://www.ieee-ises.org/IEEE-iSES_2024_Website/index.html" target="_blank"><u>IEEE-iSES 2024</u></a></div>
+                <ul>
+                    <li>Developed a waste segregation system to classify waste into dry, organic, hazardous, and plastic categories.</li>
+                    <li>Integrated ESP32 camera for computer vision with an inductive sensor to improve the system's efficiency.</li>
+                    <li>Used MobilenetV2 for segregating dry, organic, and plastic waste, achieving an accuracy score of 97%, and applied an inductive sensor for hazardous waste detection.</li>
+                    <li>Utilized the EDGE Impulse platform for training and dataset creation.</li>
+                    <li>Deployed ultrasonic sensors to monitor waste levels and update the cloud in real-time.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-info">
+                <img src="projects\Retinal.jpg" alt="Retinal Image-based Blood Vessel Segmentation">
+                <h2>Retinal Image-based Blood Vessel Segmentation</h2>
+                <div class="overlay-text">
+                    <a href="https://github.com/Dharun15/Retinal-Image-based-Blood-Vessel-Segmentation" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>                 
+                </div>
+                <ul>
+                    <li>Used datasets such as Drive-DB for training and Chase DB for testing in the segmentation of blood vessels.</li>
+                    <li>Applied preprocessing techniques like Contrast-Limited Adaptive Histogram Equalization (CLAHE) and data augmentation, including horizontal/vertical flipping and rotation of images.</li>
+                    <li>Implemented a custom deep learning pipeline by integrating advanced segmentation algorithms such as Attention U-Net and Squeeze Excitation layers.</li>
+                    <li>Achieved an IoU score of 75.4%, an accuracy of 90.4%, and a loss of 0.14.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="project">
+            <div class="project-info">
+                <img src="projects\Driver.jpg" alt="Driver Drowsiness Detection">
+                <h2>Driver Drowsiness Detection</h2>
+                <div class="overlay-text">
+                    <a href="https://github.com/Dharun15/ML-Projects/blob/main/Final_CNN_drowsiness_detection.ipynb" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>                 
+                </div>
+                <ul>
+                    <li>Led the project to develop and implement a real-time drowsiness detection system, optimizing model accuracy and ensuring practical application in real-world scenarios.</li>
+                    <li>Utilized libraries like Dlib and the Haar Cascade algorithm for detecting eyes in real-time.</li>
+                    <li>Trained the model using an eye dataset sourced from Kaggle, achieving a test accuracy of 94%.</li>
+                    <li>Implemented a CNN-based model to classify drowsiness in real-time.</li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="project">
+            <div class="project-info">
+                <video id="video" autoplay style="width: 100%; height: auto;">
+                    <source src="projects\test.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div id="controls" style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 10px;">
+                    <img id="play-pause" src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="Play" style="cursor: pointer; width: 30px; height: 30px;">
+                    <input id="track" type="range" min="0" max="100" value="0" style="cursor: pointer; flex-grow: 1; margin: 0 10px;">
+                    <img id="expand" src="https://img.icons8.com/ios-filled/50/ffffff/full-screen--v1.png" alt="Expand" style="cursor: pointer; width: 30px; height: 30px;">
+                    <img id="minimize" src="https://img.icons8.com/ios-filled/50/ffffff/collapse--v1.png" alt="Minimize" style="cursor: pointer; width: 30px; height: 30px; display: none;">
+                </div>
+            
+                <a href="https://github.com/HARSHA152003/Veggie_Vision" style="text-decoration: none; color: inherit;">
+                    <h2>VeggiVision</h2>
+                </a>
+                <div class="overlay-text">
+                    <a href="https://github.com/HARSHA152003/Veggie_Vision" style="text-decoration: none; color: inherit;">
+                        <i class="fab fa-github fa-3x"></i>
+                    </a>                 
+                </div>
+                <ul>
+                    <li> Developed a system to detect vegetables, identify their names, display bounding boxes, and show the count.</li>
+                    <li> Integrated a real-time vegetable detection with a user-friendly interface using Flask and front-end technologies.</li>
+                </ul>
+            </div>
+        </div>
+</section>
+<section>
+    <div id="contact">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 30px 50px; border-top: 1px solid #444; background-color: #111; color: #fff;">
+
+            <!-- Email Section -->
+            <a href="dharunmuthaiah@gmail.com" style="text-decoration: none; color: #fff; font-size: 20px; display: flex; align-items: center; gap: 12px; transition: color 0.3s;">
+                <i class="fa-solid fa-paper-plane" style="color: #ff004f; font-size: 28px;"></i> 
+                <span style="font-weight: 600; font-size: 18px;">dharunmuthaiah@gmail.com</span>
+            </a>
+
+            <!-- Phone Section -->
+            <a href="tel:+919043270431" style="text-decoration: none; color: #fff; font-size: 20px; display: flex; align-items: center; gap: 12px; transition: color 0.3s;">
+                <i class="fa-solid fa-phone" style="color: #ff004f; font-size: 28px;"></i>
+                <span style="font-weight: 600; font-size: 18px;">+91 90432 70431</span>
+            </a>
+
+            <!-- Social Links -->
+            <div style="display: flex; align-items: center; gap: 40px;">
+                <a href="https://www.linkedin.com/in/dharun-muthaiah-b98070223/" style="color: #ff004f; font-size: 30px; transition: color 0.3s;">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a>
+
+                </a>
+                <a href="https://github.com/Dharun15" style="color: #ff004f; font-size: 30px; transition: color 0.3s;">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <!-- Download CV -->
+            <a href="support/resume.pdf" download style="text-decoration: none; padding: 20px 40px; background-color: #ff004f; color: white; border-radius: 10px; font-size: 18px; font-weight: bold; transition: background-color 0.3s, transform 0.3s;">
+                Download CV
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Overlay for disabling interaction -->
+<div id="overlay"></div>
+
+
+
+<script src="https://kit.fontawesome.com/fde6097348.js" crossorigin="anonymous"></script>
+
+<script src="skills.js"></script>
+<script src="vv.js"></script>
+<script src="typewriter.js"></script>
+<script src="form.js"></script>
+
+
+
+
+</body>
+</html>
